@@ -31,10 +31,8 @@ namespace BlazorChessComponent.Engine
         int Select_New_Figure_X = -1;
 
 
-      
-
+     
         public myCell MyCell_Moklulebi = new myCell("white", "#FFA500");
-
 
 
         myPoint MyPoint = new myPoint();
