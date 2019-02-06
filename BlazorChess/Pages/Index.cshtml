@@ -1,8 +1,11 @@
-﻿@addTagHelper *, BlazorChessComponent
+﻿@page "/"
+
+
+@addTagHelper *, BlazorChessComponent
 @using BlazorChessComponent
 @using System.Threading;
 
-@page "/"
+
 
 <div style="background-color:lightblue">
     <table>
@@ -63,7 +66,7 @@
 
     private void GameOverCallback()
     {
-        if (timer_Game!=null)
+        if (timer_Game != null)
         {
             timer_Game.Dispose();
 

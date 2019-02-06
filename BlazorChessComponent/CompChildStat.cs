@@ -1,7 +1,7 @@
 ﻿using BlazorChessComponent.Engine;
 using BlazorSvgHelper.Classes.SubClasses;
-using Microsoft.AspNetCore.Blazor.Components;
-using Microsoft.AspNetCore.Blazor.RenderTree;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.RenderTree;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BlazorChessComponent
 {
-    public class CompChildStat : BlazorComponent
+    public class CompChildStat : ComponentBase
     {
 
         [Parameter]

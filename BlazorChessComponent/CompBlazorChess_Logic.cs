@@ -1,6 +1,5 @@
 ﻿using BlazorChessComponent.Engine;
-using Microsoft.AspNetCore.Blazor;
-using Microsoft.AspNetCore.Blazor.Components;
+using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 using System;
 using System.Collections.Generic;
@@ -9,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BlazorChessComponent
 {
-    public class CompBlazorChess_Logic:BlazorComponent
+    public class CompBlazorChess_Logic:ComponentBase
     {
         bool IsCompLoaded = false;
 
